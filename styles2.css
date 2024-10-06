@@ -17,7 +17,7 @@ body {
 .Heading {
     color: antiquewhite;
     background-color: rgba(22, 142, 6, 0.563);
-    padding-left: 19px;
+    padding-left: 20px;
     padding-bottom: 1px;
     margin-top: -6px;
     padding-top: 5px;
@@ -34,7 +34,7 @@ body {
     background-color: rgb(241, 241, 177);
     margin: -5px;
     width: 100.8%;
-    padding: 16px;
+    padding: 20px;
     font-size: 20px;
 }
 
