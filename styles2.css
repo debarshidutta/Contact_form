@@ -1,0 +1,149 @@
+/* Global Styles */
+* {
+    margin: 50;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 100px;
+    background-color: rgb(222, 218, 218);
+}
+
+.container {
+    padding: 5px;
+}
+
+.Heading {
+    color: antiquewhite;
+    background-color: rgba(22, 142, 6, 0.563);
+    padding-left: 15px;
+    padding-bottom: 1px;
+    margin-top: -6px;
+    padding-top: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    width: 100.8%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 22.5px;
+}
+
+#Contact_form {
+    background-color: rgb(241, 241, 177);
+    margin: -5px;
+    width: 100.8%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#Contact_form div {
+    padding-bottom: 25px;
+}
+
+#Contact_form input,
+textarea {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 9px;
+    border-style: none;
+    font-size: 19.2px;
+}
+
+#Contact_form input:focus {
+    outline: none;
+    filter: drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.4));
+}
+
+#Contact_form textarea:focus {
+    outline: none;
+        filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.4));
+}
+
+.Gender fieldset {
+    display: flex;
+    width: 100%;
+    padding-bottom: 15px;
+    border: none;
+    padding-right: 15%;
+    padding-left: 5%;
+}
+
+.Gender fieldset legend {
+    float: left;
+    margin-left: -6.8%;
+}
+
+.Gender fieldset legend:hover {
+    cursor: default;
+}
+
+.Gender fieldset input:hover {
+    cursor: pointer;
+}
+
+.Gender fieldset input text:hover {
+    cursor: default;
+}
+
+.Submit {
+    border: none;
+    padding: 30px;
+}
+
+.Submit button {
+    border: none;
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    /* A brighter green for better contrast */
+    border-radius: 7px;
+    font-weight: bolder;
+    color: white;
+    transition: all 0.3s ease;
+    font-size: large;
+}
+
+.Submit button:hover {
+    cursor: pointer;
+    background-color: #1d692e;
+    /* Darker shade for hover */
+    transition: all 0.59s ease;
+}
+
+#Contact_form {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    body {
+        padding: 50px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    body {
+        padding: 25px;
+        padding-bottom: 89px;
+    }
+
+    #Contact_form input,
+    textarea {
+        width: 95%;
+    }
+}
+
+@media(max-width:767px) {
+    body {
+        padding: 15px;
+        padding-bottom: 100px;
+    }
+
+    #Contact_form input,
+    textarea {
+        width: 95%;
+    }
+}
